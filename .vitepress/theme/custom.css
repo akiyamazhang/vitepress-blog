@@ -1,0 +1,35 @@
+:root {
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #2E5C6E, #7DB9DE);
+  --vp-c-brand-1: #2E5C6E;
+  --vp-c-brand-2: #3A8FB7;
+  --vp-c-brand-3: #2B5F75;
+}
+
+/* 首页 Hero 区域的 profile 图片 */
+.VPHomeHero .VPImage.image-src {
+  width: 360px;
+  height: 360px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* 鼠标悬停时旋转一圈 */
+.VPHomeHero .image-container:hover .VPImage.image-src {
+  transform: translate(-50%, -50%) rotate(1turn);
+  transition: transform 1s cubic-bezier(0.3, 0, 0.8, 1);
+}
+
+/* 修改 Home 页 features 布局为一行 3 个 */
+.VPHomeFeatures .items {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 一行3个 */
+  gap: 1rem; /* 卡片之间的间距 */
+}
+
+/* 防止 features 子元素带的 grid-4 限制 */
+.VPHomeFeatures .items .item {
+  grid-column: auto ;
+  width: auto;
+}
+

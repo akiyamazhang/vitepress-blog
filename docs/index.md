@@ -1,0 +1,47 @@
+---
+# https://vitepress.dev/reference/default-theme-home-page
+layout: home
+
+hero:
+  name: 小山园
+  text: 张晓山的 Notebook
+  tagline: 但远山长，云山乱，晓山青。
+  image:
+    src: /profile.jpg
+    alt: profile
+  actions:
+    - theme: brand
+      text: 归档
+      link: /archive
+    - theme: alt
+      text: 食用说明
+      link: /readme
+    - theme: alt
+      text: 关于博主
+      link: /about
+
+features:
+  - icon: 📒
+    title: 随想录
+    details: 一些杂乱的内容，不知道该放去哪就全部塞到这里了。
+    link: /post
+  - icon: 📖
+    title: 读书笔记
+    details: 把阅读时的想法写下来。
+    link: /note
+  - icon: 🍜
+    title: 生活记录
+    details: 至少每个月记录一次，不要忘记自己做了什么。
+    link: /journal
+  - icon: 🔧
+    title: 工具箱
+    details: 一些有用的东西。
+    link: /tool
+  - icon: 📆
+    title: 开发日志
+    details: 关于博主都对这个网站做了什么。
+    link: /log
+  - icon: 📞
+    title: 友链
+    link: /friend
+---
