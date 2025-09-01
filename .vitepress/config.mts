@@ -4,7 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   srcDir: "docs",
   cleanUrls: true,
-  base: '/',
+  base: '/vitepress-blog/',
   markdown: {
     image: {
       lazyLoading: true
