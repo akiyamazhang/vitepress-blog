@@ -1,0 +1,1 @@
+import{_ as e,c as t,o}from"./chunks/framework.CtoOtvzn.js";const i=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"log.md","filePath":"log.md"}'),a={name:"log.md"};function r(s,c,n,l,p,_){return o(),t("div")}const m=e(a,[["render",r]]);export{i as __pageData,m as default};
