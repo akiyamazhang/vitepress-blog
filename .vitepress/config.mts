@@ -4,7 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   srcDir: "docs",
   cleanUrls: true,
-  base: '/vitepress-blog/',
+  base: '/',
   markdown: {
     image: {
       lazyLoading: true
@@ -59,7 +59,8 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'twitter', link: 'https://x.com/Kara_8964st' }
+      { icon: 'twitter', link: 'https://x.com/Kara_8964st' },
+      { icon: 'github', link: 'https://github.com/akiyamazhang' }
     ],
 
     footer: {
