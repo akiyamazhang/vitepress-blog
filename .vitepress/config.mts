@@ -1,4 +1,6 @@
 import { defineConfig } from 'vitepress'
+import { sidebar } from './widget/sidebar.mts'
+import { nav } from './widget/nav.mts'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -21,42 +23,9 @@ export default defineConfig({
       provider: 'local'
     },
 
-    nav: [
-      { text: '首页', link: '/' },
-      { text: '关于', link: '/about' },
-      { text: '归档', link: '/archive' },
+    nav,
 
-      {
-        text: '随想录',
-        items:[
-          { text: '归档', link: '/post' },
-        ]
-      },
-
-      {
-        text: '读书笔记',
-        items:[
-          { text: '归档', link: '/note' },
-        ]
-      },
-
-      {
-        text: '生活记录',
-        items:[
-          { text: '归档', link: '/journal' },
-        ]
-      }
-    ],
-
-    sidebar: [
-      {
-        text: 'Examples',
-        items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
-        ]
-      }
-    ],
+    sidebar,
 
     socialLinks: [
       { icon: 'twitter', link: 'https://x.com/Kara_8964st' },
