@@ -1,1 +1,0 @@
-import{_ as e,c as t,o as a}from"./chunks/framework.CtoOtvzn.js";const l=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"journal/index.md","filePath":"journal/index.md"}'),n={name:"journal/index.md"};function r(o,s,c,d,i,p){return a(),t("div")}const m=e(n,[["render",r]]);export{l as __pageData,m as default};

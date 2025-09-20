@@ -2,6 +2,9 @@
 # https://vitepress.dev/reference/default-theme-home-page
 layout: home
 
+title: 主页
+archive: false
+
 hero:
   name: 小山园
   text: 张晓山的 Notebook

@@ -1,5 +1,6 @@
 ---
 title: 工具箱
+archive: false
 ---
 # 有用的网站
 - [自由派音乐理论](https://music-theory.aizcutei.com/)

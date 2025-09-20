@@ -1,1 +1,0 @@
-import{_ as e,c as t,o as r}from"./chunks/framework.CtoOtvzn.js";const _=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"friend.md","filePath":"friend.md"}'),a={name:"friend.md"};function n(o,s,c,d,i,f){return r(),t("div")}const m=e(a,[["render",n]]);export{_ as __pageData,m as default};

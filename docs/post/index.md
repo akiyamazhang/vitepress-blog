@@ -1,6 +1,7 @@
 ---
 layout: home
 title: 随想录
+archive: false
 hero:
   name: 随想录
   text: 张晓山的 Notebook
@@ -14,6 +15,15 @@ hero:
       text: 随机文章
       link: /post/test
 ---
+<script setup lang="ts">
+import { data as posts } from '../../.vitepress/components/archive/post.data.mts'
+</script>
 
-## 2025/09
-- [test](/post/test)
+<ul>
+  <li v-for="post in posts" :key="post.url">
+    <a :href="post.url">{{ post.title }}</a>
+    <span style="color: gray; margin-left: 10px;">
+      {{ post.date }}
+    </span>
+  </li>
+</ul>

@@ -1,6 +1,6 @@
 import { defineConfig } from 'vitepress'
-import { sidebar } from './widget/sidebar.mts'
-import { nav } from './widget/nav.mts'
+import { sidebar } from './components/sidebar.mts'
+import { nav } from './components/nav.mts'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
