@@ -1,5 +1,5 @@
 ---
 title: test in journal
-date: 2025/09/21
+date: 2025/08/21
 ---
 # TEST
