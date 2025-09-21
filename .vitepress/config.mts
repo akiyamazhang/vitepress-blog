@@ -12,7 +12,7 @@ export default defineConfig({
       lazyLoading: true
     }
   },
-  
+    
   title: "小山园",
   description: "张晓山的 Notebook",
   themeConfig: {

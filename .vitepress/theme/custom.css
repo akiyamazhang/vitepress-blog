@@ -27,6 +27,20 @@
   gap: 1rem; /* 卡片之间的间距 */
 }
 
+/* 中屏幕：一行 2 个 */
+@media (max-width: 960px) {
+  .VPHomeFeatures .items {
+    grid-template-columns: repeat(2, 1fr); /* 一行 2 个 */
+  }
+}
+
+/* 小屏幕：一行 1 个 */
+@media (max-width: 640px) {
+  .VPHomeFeatures .items {
+    grid-template-columns: repeat(1, 1fr);; /* 一行 1 个 */
+  }
+}
+
 /* 防止 features 子元素带的 grid-4 限制 */
 .VPHomeFeatures .items .item {
   grid-column: auto ;
@@ -43,4 +57,8 @@
 .VPHome .vp-doc{
   max-width: 960px;
   margin: center;
+}
+
+.giscus {
+  margin-top: 3rem; /* 留出正文与评论区的间距 */
 }
