@@ -38,3 +38,9 @@
   height: auto;
   margin: auto;
 }
+
+/* doc 部分缩进 */
+.VPHome .vp-doc{
+  max-width: 960px;
+  margin: center;
+}

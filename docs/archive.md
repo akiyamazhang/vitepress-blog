@@ -19,13 +19,14 @@ const groupedPosts = posts.reduce((acc, post) => {
 # 归档
 
 <div v-for="(posts, date) in groupedPosts" :key="date">
-  <h2>{{ date }}</h2>
-  <ul>
-    <li v-for="post in posts" :key="post.url">
-      <a :href="post.url">{{ post.title }}</a>
-      <span style="color: gray; margin-left: 10px;">
-        {{ post.date }}
-      </span>
-    </li>
-  </ul>
+
+## {{ date }}
+  <li v-for="post in posts" :key="date">
+    <a :href="post.url" :key="post.url">
+      {{ post.title }}
+    </a>
+    <span style="color: gray; margin-left: 10px;">
+      {{ post.date }}
+    </span>
+  </li>
 </div>
